@@ -8,7 +8,7 @@
 #define TAG "Aldrin" // 这个是自定义的LOG的标识
 
 extern "C" JNIEXPORT jstring JNICALL
-Java_com_aldrin_antidebugtracerpid_MainActivity_stringFromJNI(
+Java_com_aldrin_antidebug_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
